@@ -1,0 +1,157 @@
+
+.quadrados{
+    display:flex;
+   
+    width: 18px;
+    height: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.a1{
+    width:4px;
+    height:4px;
+    border-radius:2px;
+    background-color: #444;
+    margin:1px;
+
+}
+.login{
+    width: 22px;
+    height: 23px;
+    border-radius: 24px;
+    background-color: lightseagreen;
+    color:#fff;
+    padding: 1px 1px 5px 5px;
+    font-weight: bold;
+    font-size:20px;
+   
+}
+.login:hover{
+    box-shadow: 0px 0px 6px #666;
+}
+.posicao-menu{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 10px;
+    
+   
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 280px;
+}
+.pesquisa{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:125px;
+
+  
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+input{
+    width:520px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px #555;
+    border:none;
+    font-size: 13px;
+    
+}
+
+
+.figura-pesquisa img{
+    width: 24px;
+    position: relative;
+    top:-29px;
+    left:11px;
+  
+}
+.microfone-pesquisa{
+    
+    position: relative;
+    top:-52px;
+    left:477px;
+}
+.microfone-pesquisa img{
+    width:15px;
+}
+.input-centra{
+    display: flex;
+    flex-direction: column;
+}
+.Personalizar{
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    border-radius: 30px;
+    color:#1a73e8;
+    font-size: 13px;
+    padding: 11px 2px 9px 45px;
+    width: 100px;
+    height: 20px;
+    
+    
+}
+.Personalizar img{
+    width: 30%;
+    position: relative;
+    top: -20px;
+    right: 32px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+    position: absolute;
+    top: 80vh;
+    
+    left: 80vw;
+}
+
+@media (max-width:540px){
+    input{
+        width:380px;}
+        .microfone-pesquisa{
+    
+            
+            left:340px;
+        }
+
+}
+@media (max-width:400px){
+    input{
+        width:300px;}
+        .microfone-pesquisa{
+    
+            
+            left:262px;
+        }
+
+}
+@media (max-width:790px){
+
+    .rodape {
+        
+        left: 70vw;
+    }
+}
+@media (max-width:500px){
+    .rodape {
+        
+        left: 50vw;
+    }
+}
